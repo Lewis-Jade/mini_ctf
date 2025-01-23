@@ -1,4 +1,5 @@
 # Hidden Message Challenge
+# Hidden Message Challenge
 
 This repository demonstrates a scenario involving a hidden message within a nested file structure.
 
@@ -10,18 +11,20 @@ This repository demonstrates a scenario involving a hidden message within a nest
 4. The user then returns to this website to decrypt and submit the message.
 5. The submitted message is validated on the server.
 
-**Files:**
 
-*   `.gitignore`: Prevents the `hidden_folder` from being tracked by Git.
-*   `hidden_folder/`: 
-    *   `hidden_file1`: An empty file.
-    *   `hidden_file2/`: 
-        *   `hidden_file3`: Contains the encrypted message.
 
-**Instructions:**
+Here's how you can explain the importance of this hidden message challenge to your Linux students in 100 words:
 
-1. **Clone the repository:** 
-   git clone <repository_url>
+**"This challenge emphasizes key Linux skills:**
+
+* **File System Navigation:** You'll master navigating the file system, including finding hidden files and folders.
+* **Command-Line Proficiency:** You'll practice essential commands like `ls -a` to uncover hidden elements.
+* **Problem-Solving:** You'll develop critical thinking and problem-solving skills to unravel the hidden message.
+* **Security Awareness:** You'll gain a basic understanding of how file system security works and the importance of proper file permissions. 
+
+**This challenge will enhance your Linux skills and prepare you for more advanced tasks."**
+
+                         
                                                    [Authored by Lewis Mudaida  ]
 
    
