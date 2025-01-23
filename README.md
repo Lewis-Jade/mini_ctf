@@ -22,7 +22,12 @@ Here's how you can explain the importance of this hidden message challenge to yo
 * **Problem-Solving:** You'll develop critical thinking and problem-solving skills to unravel the hidden message.
 * **Security Awareness:** You'll gain a basic understanding of how file system security works and the importance of proper file permissions.
 * **This challenge will enhance your Linux skills and prepare you for more advanced tasks.
-                                             [Authored by Lewis Mudaida  ]
+
+
+
+
+
+                                                    [Authored by Lewis Mudaida  ]
 
 
                          
