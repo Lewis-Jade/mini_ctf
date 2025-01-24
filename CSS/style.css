@@ -93,9 +93,12 @@ a{
     -2px -2px  3px #09d309e3;
 }
 .content{
+    position: relative;
     height: 100%;
     width: 100%;
-
+justify-content: center;
+align-items: center;
+display: flex;
     
     
 }
@@ -117,11 +120,22 @@ i{
 }
 #myimage{
     position: absolute;
-    top: 250px;
+    top: 240px;
     width: 320px;
     height: 350px;
     right: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px  2px #09d309e3,
     -2px -2px  2px #09d309e3;
+}
+.instruct{
+    position:absolute;
+    height: 400px;
+    width:380px;
+ 
+    color: #06c206;
+    left: 30px;
+}
+hr{
+    border: 1px solid #06c206;
 }
