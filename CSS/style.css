@@ -131,11 +131,55 @@ i{
 .instruct{
     position:absolute;
     height: 400px;
-    width:380px;
- 
+    width:350px;
+    background: #0000002d;
     color: #06c206;
     left: 30px;
+    justify-content: start;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    box-shadow: 2px 2px  3px #09d30949,
+    -2px -2px  3px #09d30949;
 }
 hr{
     border: 1px solid #06c206;
 }
+
+  .typing-hd{
+  
+    height: 10;
+    width: 46%;
+    overflow: hidden;
+    background: #000;
+    border-right: 2px solid #06c206;
+    animation: typing 4s steps(100, end), blink 0.6s step-end infinite;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+  }
+  
+  @keyframes typing{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 46%;
+    }
+  }
+  @keyframes blink {
+    0%{
+      border-right-color: transparent;
+    }
+    100%{
+      border-right-color: #06c206;
+      border-right-color: transparent;
+    }
+  }
+  p{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+
+
+    color: #06c206;
+  }
