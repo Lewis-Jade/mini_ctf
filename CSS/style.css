@@ -67,13 +67,7 @@ header{
     border-bottom-left-radius: 5px;
     z-index: 2;
 }
-.mode{
-    height: 100%;
-    position: absolute;
-    right:10px;
-    width: 200px;
-    background: #000;
-}
+
 a{
     left: 10px;
     position: relative;
@@ -183,4 +177,84 @@ hr{
 
 
     color: #06c206;
+  }
+  .link{
+    position: absolute;
+    float: right;
+    right: 150px;
+    height: 200px;
+    top: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 660px;
+    background: #0000002d;
+    border-radius: 3px;
+    box-shadow: 2px 2px  3px #09d30949,
+    -2px -2px  3px #09d30949;
+  }
+  i{
+    position: absolute;
+    right: 70px;
+    color: #06c206;
+    font-size: 20px;
+    
+  }
+  .copy-link{
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  input{
+    position: absolute;
+    width: 80%;
+    height: 55px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 30px;
+    color: #06c206;
+    background: #0000002d;
+    box-shadow: 2px 2px  3px #09d309b4,
+    -2px -2px  3px #09d309b4;
+  }
+  form{
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    height: 250px;
+    width: 400px;
+    background: #0000002d;
+    border-radius: 3px;
+    box-shadow: 2px 2px  3px #09d30949,
+    -2px -2px  3px #09d30949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  input[name="flag-input"]:focus{
+    box-shadow: 2px 2px 3px #09d309,
+    -2px -2px   3px #09d309;
+  }
+  button{
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+    height: 44px;
+    background-color: #06c20613;
+    color:#06c206;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid #0ca349;
+    box-shadow: 2px 2px  3px #09d30991,
+    -2px -2px  3px #09d30991;
+  }
+  button:hover{
+  background: #06c2063b;
+  font-size: larger;
   }
