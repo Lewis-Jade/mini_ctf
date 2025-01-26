@@ -93,6 +93,7 @@ a{
 justify-content: center;
 align-items: center;
 display: flex;
+
     
     
 }
@@ -114,7 +115,7 @@ i{
 }
 #myimage{
     position: absolute;
-    top: 240px;
+    top: 180px;
     width: 320px;
     height: 350px;
     right: 10px;
@@ -125,16 +126,59 @@ i{
 .instruct{
     position:absolute;
     height: 400px;
-    width:350px;
+    width:450px;
     background: #0000002d;
     color: #06c206;
-    left: 30px;
+    left: 25px;
     justify-content: start;
     display: flex;
     border-radius: 4px;
     flex-direction: column;
     box-shadow: 2px 2px  3px #09d30949,
     -2px -2px  3px #09d30949;
+}
+strong{
+  color: #0ca349;
+}
+ul{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+overflow: hidden;
+  width:400px ;
+  height: 300px;
+}
+ul li{
+  list-style-type: none;
+  background: #0c0c0c91;
+  color: #8eeb9a;
+  font-size: 14px;
+  animation: rules 4s steps(100, end), blink3 0.6s step-end infinite;
+  animation-duration: 4s;
+ 
+}
+@keyframes rules{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+@keyframes blink3{
+  0%{
+    border-right-color: transparent;
+    background: #0c0c0c91;
+  }
+  100%{
+    border-right-color: #06c206;
+    border-right-color: transparent;
+    background: none;
+  }
 }
 hr{
     border: 1px solid #06c206;
@@ -146,7 +190,7 @@ hr{
     height: 10;
     width: 46%;
     overflow: hidden;
-    background: #000;
+   
     border-right: 2px solid #06c206;
     animation: typing 4s steps(100, end), blink 0.6s step-end infinite;
     animation-iteration-count: infinite;
@@ -172,16 +216,21 @@ hr{
   }
   p{
     position: absolute;
-    top: auto;
-    bottom: 0;
+    top: 100px;
+    left: 100px;
 
+ 
+    
+  background: #0000001a;
 
     color: #06c206;
+    box-shadow: 2px 2px  3px #09d30949,
+    -2px -2px  3px #09d30949;
   }
   .link{
     position: absolute;
     float: right;
-    right: 150px;
+    right: 80px;
     height: 200px;
     top: 100px;
     justify-content: center;
@@ -226,6 +275,7 @@ hr{
     bottom: 10px;
     height: 250px;
     width: 400px;
+    right: 80px;
     background: #0000002d;
     border-radius: 3px;
     box-shadow: 2px 2px  3px #09d30949,
@@ -256,5 +306,68 @@ hr{
   }
   button:hover{
   background: #06c2063b;
-  font-size: larger;
+  font-size: 20px;
+  }
+  .art{
+    position: absolute;
+    right: 10px;
+    top: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   bottom: 2px;
+
+    height: 50px;
+    width: 300px;
+    background: #0000000e;
+  }
+  #gif{
+    position: relative;
+    top:80px;
+    height: 90px;
+    width: 150px;
+    background: #0000002d;
+  }
+  #disc{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 13px;
+     height: 40px;
+  bottom: 0;
+     width: 90%;
+     border-right: 2px solid #06c206;
+     overflow: hidden;
+    border-right: 2px solid #06c206;
+    animation: art 4s steps(100, end), blink2 0.6s step-end infinite;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-delay: 20s;
+  }
+
+  @keyframes art{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  }
+  @keyframes blink2 {
+    0%{
+      border-right-color: transparent;
+    }
+    100%{
+      border-right-color: #06c206;
+      border-right-color: transparent;
+    }
+  }
+  h3{
+    position: absolute;
+    top: 10px;
+    color: #06c206;
+ 
   }
