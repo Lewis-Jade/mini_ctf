@@ -96,6 +96,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     box-shadow: 2px 2px  3px #41f531,
     -2px -2px  3px #41f531;
+    cursor: pointer;
 }
 p{
     color: #41f531;
@@ -183,6 +184,17 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
   }
   .back:hover{
     background-color:#201f1f;
