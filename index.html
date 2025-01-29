@@ -6,12 +6,13 @@
     <title>The game plan ctf</title>
 <link rel="stylesheet" href="CSS/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="SCRIPTS/main.js" defer></script>
 </head>
 <body>
 
 <header>
-    <a href="">Cyb3rS3c fr4t4n1ty</a>
-    <a href="dev.html">About Developer</a>
+    <a href="frat.php">Cyb3rS3c fr4t4n1ty</a>
+    <a href="dev.php">About Developer</a>
 
   
   
@@ -28,7 +29,7 @@
          <img id="gif" src="IMG/758X.gif" alt="matrix-walker">
      
     </section>
-    <section class="content">
+    <section class="content" id="chaln">
         <div class="instruct">
             <h3 class="typing-hd">Instractions</h3>
             <hr>
@@ -50,12 +51,16 @@
             <i class="fa-solid fa-copy"></i>
           </div>
         </div>
-        <form action="" id="chaln">
+        <form action="" >
             <h3>Found the flag?</h3>
             <input type="text" name="flag-input"  placeholder="Flag goes here...">
           <button>submit flag</button>
         </form>
     </section>
-   
+    <audio id="background-music" autoplay muted loop>
+        <source src="IMG/music.mp3" type="audio/mp3">
+       
+      </audio>
+      
 </body>
 </html>

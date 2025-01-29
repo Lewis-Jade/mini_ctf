@@ -167,9 +167,9 @@ p{
     position: absolute;
     top: auto;
     left: 50px;
-    bottom: 60px;
-    height: 200px;
-    width: 200px;
+    bottom: 30px;
+    height: 150px;
+    width: 150px;
   }
   strong{
     color: #06c206;
