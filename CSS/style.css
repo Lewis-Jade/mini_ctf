@@ -10,12 +10,12 @@
     box-sizing: border-box;
 }
 
-body{
+html,body{
     background: #0d131f28;
   display: flex;
 
   flex-wrap: wrap;
-
+   justify-content: center;
  
     height: 100vh;
     width: 100vw;
@@ -383,4 +383,35 @@ hr{
     color: #06c206;
  
   }
-  
+  @media(max-width:600px){
+    section{
+      width: 100%;
+   
+    }
+    #banner{
+      bottom: 100px;
+      width: 60%;
+      height: 45%;
+    }
+    #myimage{
+      width: 30%;
+      height: 15%;
+    }
+    #man{
+      height: 10%;
+      width: 10%;
+    }
+    #gif{
+      height: 7%;
+      width: 7%;
+    }
+    p{
+      font-size: 10px;
+      left: 10px;
+    }
+    a{
+      height: 20%;
+      width: 20%;
+      font-size: 9px;
+    }
+  }
