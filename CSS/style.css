@@ -164,26 +164,7 @@ ul li{
 
  
 }
-@keyframes rules{
-  0%{
-    width: 0;
-  }
-  100%{
-    width: 100%;
-  }
-}
 
-@keyframes blink3{
-  0%{
-    border-right-color: transparent;
-    background: #0c0c0c91;
-  }
-  100%{
-    border-right-color: #06c206;
-    border-right-color: transparent;
-    background: none;
-  }
-}
 hr{
     border: 1px solid #06c206;
     width: 42%;
@@ -409,7 +390,7 @@ hr{
   
     }
     #gif{
-      top: 240px;
+      top: 200px;
       right: 0;
       height: 20%;
       width: 25%;
@@ -438,17 +419,27 @@ hr{
     .link{
      height: 20%;
      width: 90%;
-     top: 280px;
+     top: 370px;
      right: 10px;
     }
     .art{
 
-      bottom: 200px;
+      bottom: 180px;
     }
     form{
+      bottom: 100px;
       width: 90%;
-      height: 30%;
+      height: 20%;
       right: 10px;
     }
-
+    button{
+      width: 100px;
+      height: 22px;
+      font-size: 11px;
+    }
+    input{
+      width: 70%;
+      height: 30px;
+      font-size: 11px;
+    }
   }
