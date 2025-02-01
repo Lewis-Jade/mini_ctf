@@ -365,8 +365,12 @@ hr{
  
   }
   @media(max-width:600px){
+    html, body {
+      overflow-x: hidden; /* Prevent horizontal scroll on small screens */
+    }
+    
     section{
-      width: 100%;
+      width: 100vw;
    
     }
     header{
@@ -423,7 +427,7 @@ hr{
      right: 10px;
     }
     .art{
-
+      position: absolute;
       bottom: 180px;
     }
     form{
