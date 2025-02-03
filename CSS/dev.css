@@ -245,11 +245,16 @@ p{
       color: #e4eee4;
     
      }
+     p{
+      font-size: 12px;
+      height: 15px;
+    
+     }
     
     form{
     
       display: block;
-      background: red;
+    
       width: 90%;
       display: flex;
       justify-content: center;
