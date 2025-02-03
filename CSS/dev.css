@@ -222,14 +222,26 @@ p{
       color: #ffffffe1;
      }
      #hacker{
-      top: 45%;
+      height: 50px;
+      width: 50px;
+      top: 40%;
       left: 5px;
      }
      header{
       height: 50px;
+      
      }
      h2{
+      font-size: 12px;
+     }
+     .back,i{
       font-size: 9px;
+     }
+     .para{
+      font-size: 3px;
+      width: 400px;
+      height: 250px;
+    
      }
     
     form{
