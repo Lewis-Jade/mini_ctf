@@ -203,3 +203,31 @@ p{
     font-size: 20px;
     color: #00ff00b6;
   }
+
+@media(max-width:600px){
+    
+
+  section{
+      width: 100%;
+   
+      overflow: hidden;
+     }
+     .devsinfo{
+      width: 100%;
+     }
+     .para{
+      
+      font-size: 10px;
+      top: 10%;
+      color: #ffffffe1;
+     }
+     #hacker{
+      top: 45%;
+      left: 5px;
+     }
+    
+    form{
+    
+      display: none;
+    }
+}
