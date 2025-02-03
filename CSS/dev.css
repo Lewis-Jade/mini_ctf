@@ -220,16 +220,11 @@ p{
      .devsinfo{
       width: 100%;
      }
-     .para{
-      
-      font-size: 10px;
-      top: 10%;
-      color: #ffffffe1;
-     }
+     
      #hacker{
       height: 50px;
       width: 50px;
-      top: 80%;
+      top: 90%;
       left: 5px;
      }
      header{
@@ -244,8 +239,8 @@ p{
      }
      .para{
       font-size: 2px;
-      width: 95%;
-      height: 400px;
+      width: 90%;
+      height: 350px;
       top: 15%;
       color: #88e988;
     
