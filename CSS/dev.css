@@ -248,13 +248,14 @@ p{
      p{
       font-size: 12px;
       height: 15px;
+      background: red;
     
      }
     
     form{
     
       display: block;
-    
+      background:#000;
       width: 90%;
       display: flex;
       justify-content: center;
