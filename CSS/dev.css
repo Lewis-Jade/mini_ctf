@@ -225,6 +225,12 @@ p{
       top: 45%;
       left: 5px;
      }
+     header{
+      height: 50px;
+     }
+     h2{
+      font-size: 9px;
+     }
     
     form{
     
