@@ -246,9 +246,10 @@ p{
     
      }
      p{
-      font-size: 12px;
+      font-size: 9px;
       height: 15px;
-      background: red;
+ 
+      width: 50%;
     
      }
     
