@@ -248,6 +248,11 @@ p{
     
     form{
     
-      display: none;
+      display: block;
+      background: red;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 }
