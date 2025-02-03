@@ -203,6 +203,11 @@ p{
     font-size: 20px;
     color: #00ff00b6;
   }
+  #test{
+    position: absolute;
+    right: 20px;
+    color: #00ff00b6; 
+  }
 
 @media(max-width:600px){
     
@@ -238,9 +243,9 @@ p{
       font-size: 9px;
      }
      .para{
-      font-size: 0.5px;
-      width: 400px;
-      height: 250px;
+      font-size: 2px;
+      width: 95%;
+      height: 150px;
     
      }
     
