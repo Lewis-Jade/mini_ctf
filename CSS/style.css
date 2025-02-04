@@ -406,6 +406,10 @@ hr{
       font-weight: 700;
       color: #fff;
     }
+    i{
+      color: red;
+      right: 30px;
+    }
     a{
       height: 40%;
       width: 20%;
