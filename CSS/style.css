@@ -417,7 +417,7 @@ hr{
     }
     .instruct{
       top: 10px;
-      height: 40%;
+      height: 45%;
       width: 100%;
       left: 3px;
     
@@ -456,5 +456,8 @@ hr{
       width: 90%;
       height: 30px;
       font-size: 11px;
+    }
+    button{
+      font-size: 10px;
     }
   }

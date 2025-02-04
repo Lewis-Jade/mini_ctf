@@ -211,7 +211,13 @@ p{
     right: 20px;
     color: #00ff00b6; 
   }
-
+.fa-circle-xmark{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: red;
+  /* visibility: hidden; */
+}
 
 @media(max-width:600px){
     
@@ -270,12 +276,14 @@ p{
       opacity: 1;
       background:#000;
       width: 90%;
-   
+     z-index: 3;
       display: flex;
       justify-content: center;
       align-items: center;
    
     }
+  
+    
     #test{
       font-size: 25px;
       padding: 10px;
@@ -283,4 +291,13 @@ p{
       z-index: 2;
 
     }
+    .fa-circle-xmark{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: red;
+      font-size: 20px;
+      visibility: visible;
+    }
+
 }
