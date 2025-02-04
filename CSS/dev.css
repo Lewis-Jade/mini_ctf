@@ -204,6 +204,7 @@ p{
   i{
     font-size: 20px;
     color: #00ff00b6;
+    cursor: pointer;
   }
   #test{
     position: absolute;
@@ -237,8 +238,9 @@ p{
      h2{
       font-size: 12px;
      }
-     .back,i{
+     .back{
       font-size: 9px;
+      
      }
      .para{
       font-size: 2px;
@@ -276,5 +278,9 @@ p{
     }
     #test{
       font-size: 25px;
+      padding: 10px;
+      background: #06c24e49;
+      z-index: 2;
+
     }
 }
