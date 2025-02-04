@@ -10,9 +10,9 @@ const form = document.getElementById('frm');
 
 menu.onclick = function(){
 
-form.classList.add('frm-clicked')
+form.classList.add('frm-click')
 
-  
+
     
 }
 

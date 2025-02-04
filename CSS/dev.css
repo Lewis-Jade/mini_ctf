@@ -41,6 +41,7 @@ section{
     color: #fff;
 }
 form{
+
     position: absolute;
     right: 0;
     top: 0;
@@ -52,6 +53,7 @@ form{
     flex-direction: column;
 
 }
+
 input{
     margin-top: 30px;
     width: 80%;
@@ -209,6 +211,7 @@ p{
     color: #00ff00b6; 
   }
 
+
 @media(max-width:600px){
     
 
@@ -254,13 +257,14 @@ p{
      }
     
     form{
-    opacity: 0;
+     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-      
-     
+
+  
     
     }
     .frm-click{
+ 
       opacity: 1;
       background:#000;
       width: 90%;
@@ -268,6 +272,9 @@ p{
       display: flex;
       justify-content: center;
       align-items: center;
-      background: red;
+   
+    }
+    #test{
+      font-size: 25px;
     }
 }
