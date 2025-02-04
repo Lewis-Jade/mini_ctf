@@ -216,7 +216,7 @@ p{
   top: 20px;
   left: 20px;
   color: red;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 @media(max-width:600px){
