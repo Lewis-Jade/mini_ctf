@@ -56,6 +56,7 @@ header{
     position: fixed;
     height: 70px;
     width: 100%;
+    left: 0;
     background: #0d131f73;
     justify-content: center;
     display: flex;
@@ -231,6 +232,18 @@ hr{
     border-radius: 3px;
     box-shadow: 2px 2px  3px #09d30949,
     -2px -2px  3px #09d30949;
+  }
+  #audio{
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    background: #00000023;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 2px 2px  2px #09d309e3,
+    -2px -2px  2px #09d309e3;
   }
   i{
     position: absolute;
@@ -457,6 +470,14 @@ hr{
       width: 90%;
       height: 30px;
       font-size: 11px;
+    }
+    #audio{
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
     }
 
   
