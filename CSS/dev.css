@@ -93,6 +93,10 @@ input[type="submit"]{
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
 
 }
 input[type="submit"]:hover{
