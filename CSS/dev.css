@@ -100,10 +100,22 @@ input[type="submit"]:hover{
     -2px -2px  3px #41f531;
     cursor: pointer;
 }
+#audio{
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  background: #00000023;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 2px 2px  2px #09d309e3,
+  -2px -2px  2px #09d309e3;
+}
 p{
     color: #41f531;
   border-right:1px solid #41f531;
-  width: 50%;
+  width: 53%;
 
   height: 20px;
   overflow: hidden;
@@ -299,5 +311,9 @@ p{
       font-size: 20px;
       visibility: visible;
     }
+     #audio{
+      height: 25px;
+      width: 25px;
+     }
 
 }
