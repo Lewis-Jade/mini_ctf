@@ -191,9 +191,10 @@ h3 {
 
     .info {
         width: 90%;
-        height: 350px;
+        height: 360px;
         font-size: 12px;
         left: 0;
-        top: 70px;
+        padding: 5px;
+        top: 60px;
     }
 }
