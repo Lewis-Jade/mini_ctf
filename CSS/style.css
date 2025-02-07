@@ -434,14 +434,20 @@ hr{
     }
     .instruct{
       top: 10px;
-      height: 45%;
+      height: 50%;
       width: 95%;
       left: 10px;
     
     }
+    ul{
+      top: 50px;
+
+      height: 210px;
+    }
     ul li{
       font-size: 10px;
      width: 70%;
+
     }
     #str{
   
