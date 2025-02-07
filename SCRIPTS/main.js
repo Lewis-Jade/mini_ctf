@@ -19,7 +19,19 @@ audioIcon.onclick = function () {
 };
 
 
+const copyBtn = document.getElementById('copy-btn');
+const cplink= document.getElementById('link');
+copyBtn.onclick =  function(){
 
+    function copyToClipboard() {
+        const text = document.getElementById("link").value;
+        navigator.clipboard.writeText(text)
+            .then(() => alert("Copied: " + text))
+            .catch(err => console.error("Error copying text: ", err));
+    }
+    copyToClipboard();
+
+}
 
 
 
