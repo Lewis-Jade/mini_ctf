@@ -17,7 +17,7 @@
 
 <header>
     <a href="frat.html">Cyb3rS3c fr4t4n1ty</a>
-    <a href="dev.html">About Developer</a>
+    <a href="dev.php">About Developer</a>
 
     <img src="IMG/no-audio.png"  id="audio" alt="">
   

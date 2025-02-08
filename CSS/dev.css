@@ -226,6 +226,7 @@ p{
     position: absolute;
     right: 20px;
     color: #00ff00b6; 
+    opacity: 0;
   }
 .fa-circle-xmark{
   position: absolute;
@@ -307,6 +308,7 @@ hr{
       padding: 10px;
       background: #06c24e49;
       z-index: 2;
+      opacity: 1;
 
     }
     .fa-circle-xmark{

@@ -72,6 +72,7 @@ session_start();
 
     }
     a{
+        margin-top:10px;
         color: #00FF00;
         text-decoration: none;
         background: #00000077;
@@ -82,6 +83,25 @@ session_start();
     }
     a:hover{
         background: #000;
+    }
+    h4{
+        color:#fff
+    }
+    #source-cd{
+        background: rgba(100, 100, 141, 0.425);
+        color: #fff;
+    }
+    @media(max-width:600px){
+        div{
+            position: absolute;
+            top:200px;
+            width: 250px;
+            font-size: 10px;
+        }
+        strong{
+            position:absolute;
+            top:100px;
+        }
     }
     </style>
 </head>
@@ -100,7 +120,8 @@ session_start();
         <h3> Keep going for more challenges!😎</h3>
         <p>"Thank you for participating in the challenge! Your effort and curiosity are appreciated. Keep learning, hacking ethicaly, and exploring new challenges ahead!"</p>
         <i class="fas fa-skull-crossbones"></i>
-        <a href="dev.html">Share your experience</a>
+        <a href="dev.php">Share your experience</a>
+        <a href="https://github.com/Lewis-Jade/mini_ctf"  id="source-cd">source code</a>
     </div>
     <audio id="background-music" autoplay muted loop>
         <source src="IMG/victory.mp3" type="audio/mp3">
