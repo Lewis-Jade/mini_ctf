@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,6 +91,9 @@
             p{
                 font-size: 9px;            }
         }
+        strong{
+            color:#00ff00;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +101,18 @@
     <section>
       <div class="fail">
         <h3>Incorrect Flag</h3>
+        <?php
+          if(isset($_SESSION['message'])){
+            
+             echo '<strong>'.$_SESSION['message'].'</strong>';
+
+          }
+        
+        ?>
+        <br>
+        <br>
         <p>Check Th_Flag directory, retry `cat instructions.txt`, or verify hidden files.</p>
-        <a href="index.html">Retry</a>
+        <a href="index.php">Retry</a>
       </div>
     </section>
 </body>

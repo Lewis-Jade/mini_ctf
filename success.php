@@ -1,3 +1,9 @@
+<?php
+session_start();
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +31,7 @@
         align-items: center;
         height: 100vh;
         display: flex;
+        flex-direction:column;
     }
     h3{
         position: absolute;
@@ -81,8 +88,16 @@
 <body>
 
     <img src="IMG/Emhs.gif" alt="">
+    <?php
+          if(isset($_SESSION['message'])){
+            
+             echo '<strong>'.$_SESSION['message'].'</strong>';
+
+          }
+        
+        ?>
     <div>
-        <h3>Congratulations! You found the flag. Keep going for more challenges!😎</h3>
+        <h3> Keep going for more challenges!😎</h3>
         <p>"Thank you for participating in the challenge! Your effort and curiosity are appreciated. Keep learning, hacking ethicaly, and exploring new challenges ahead!"</p>
         <i class="fas fa-skull-crossbones"></i>
         <a href="dev.html">Share your experience</a>

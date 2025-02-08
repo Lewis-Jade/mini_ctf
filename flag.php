@@ -10,12 +10,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if ($submitted_flag === $correct_flag) {
         $_SESSION["message"] = "✅ Congratulations! You found the correct flag!";
-        header("Location: success.html");
+        header("Location: success.php");
         exit();
 
     } else {
         $_SESSION["message"] = "❌ Incorrect flag! Try again.";
-        header("Location: fail.html");
+        header("Location: fail.php");
         exit();
     }
     
