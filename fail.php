@@ -12,87 +12,97 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>failed!</title>
+    <title>Failed!</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto Mono", serif;
-    font-optical-sizing: auto;
-    box-sizing: border-box;
-}
-        body{
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Roboto Mono", monospace;
+            box-sizing: border-box;
+        }
+        
+        body {
             background: #000;
+            display: flex;
             justify-content: center;
             align-items: center;
-            display: flex;
             height: 100vh;
         }
-        section{
+        
+        section {
             position: absolute;
             top: 0;
             left: 0;
             height: 100%;
             width: 100%;
-            background: #00000033;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
             justify-content: center;
             align-items: center;
-            display: flex;
             color: #fff;
         }
-        .fail{
+        
+        .fail {
             height: 500px;
             width: 400px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             display: flex;
             flex-direction: column;
-            background: #3a393969;
+            justify-content: center;
+            align-items: center;
+            background: rgba(58, 57, 57, 0.8);
             border-radius: 8px;
-            box-shadow: 2px 2px  3px #09d30931,
-           -2px -2px  3px #09d30931;
+            box-shadow: 0px 4px 6px rgba(9, 211, 9, 0.3);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
         }
-        a{
+        
+        .fail:hover {
+            transform: scale(1.05);
+        }
+        
+        a {
             text-decoration: none;
             color: #00ff00;
-            background: #000000b0;
-            width: 100px;
+            background: rgba(0, 0, 0, 0.8);
+            width: 120px;
             height: 40px;
             border-radius: 8px;
             display: flex;
-            align-content: center;
             align-items: center;
             justify-content: center;
-            box-shadow: 2px 2px  3px #09d30931,
-            -2px -2px  3px #09d30931;
+            box-shadow: 0px 4px 6px rgba(9, 211, 9, 0.3);
             margin-top: 20px;
+            transition: background 0.3s, transform 0.3s;
         }
-        h3{
+        
+        a:hover {
+            background: #00ff00;
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+        h3 {
             color: #ff0000;
-            position: absolute;
-            top: 10px;
+            margin-bottom: 15px;
         }
-        @media(max-width:600px){
-            section{
-                
-                width: 100%;
-            }
-            .fail{
-                top: 200px;
-                position: absolute;
+        
+        strong {
+            color: #00ff00;
+        }
+        
+        @media (max-width: 600px) {
+            .fail {
                 height: 400px;
                 width: 300px;
+                padding: 15px;
             }
-            p{
-                font-size: 9px;            }
-        }
-        strong{
-            color:#00ff00;
+            
+            p {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
@@ -109,9 +119,7 @@ session_start();
           }
         
         ?>
-        <br>
-        <br>
-        <p>Check Th_Flag directory, retry `cat instructions.txt`, or verify hidden files.</p>
+        <p>Check <strong>Th_Flag</strong> directory, retry <code>cat instructions.txt</code>, or verify hidden files.</p>
         <a href="index.php">Retry</a>
       </div>
     </section>
