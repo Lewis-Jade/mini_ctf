@@ -1,3 +1,11 @@
+
+<?php
+session_start()
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +64,7 @@
             <i class="fa-solid fa-copy" id="copy-btn"></i>
           </div>
         </div>
-        <form action="" >
+        <form action="flag.php"  method="POST" >
             <h3>Found the flag?</h3>
             <input type="text" name="flag-input"  placeholder="Flag goes here...">
           <button>submit flag</button>
@@ -66,8 +74,7 @@
         <source src="IMG/mini_ctf.mp3" type="audio/mp3">
        
       </audio>
-      
-      <a href="success.html">is fail</a>
+
 </body>
 </html>
 
