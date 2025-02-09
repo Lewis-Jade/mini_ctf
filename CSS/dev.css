@@ -55,7 +55,7 @@ form{
 }
 
 input{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 80%;
     height: 44px;
     background-color:#201f1f;
@@ -68,6 +68,10 @@ input{
 input:focus{
     box-shadow: 2px 2px  3px #41f531,
     -2px -2px  3px #41f531
+}
+h5{
+  padding: 5px 0 0 5px;
+  color: #0be60b;
 }
 textarea{
     margin-top: 30px;

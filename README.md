@@ -9,7 +9,7 @@ Welcome to the **Mini Capture The Flag (CTF)** Ch4114ng3! This challenge tests y
 ## Instructions
 1. Visit the provided URL to access the platform.
 2. Search for the hidden directory.
-3. Locate the `flag.txt` file and follow its instructions.
+3. Locate the `instuctions.txt` file and follow its instructions.
 
 ---
 Authored by Lewis Mudaida

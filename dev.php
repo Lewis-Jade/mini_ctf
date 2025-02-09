@@ -1,3 +1,9 @@
+<?php
+  session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,12 +42,27 @@
          </div>
          <img src="IMG/4643176.jpg" alt=""  id="hacker">
         </div>
-        <form action=""  id="frm">
+        <form action="sendmail.php"  id="frm"   method="POST">
             <i class="fa-regular fa-circle-xmark" id="exit"></i>
             <p>Talk to Mr.H4CK3R😎</p>
-            <input type="email"  placeholder="email...." required>
-            <textarea name="" id="" placeholder="message goes here ..."></textarea>
-            <input type="submit" value="send">
+            <input type="text"  placeholder="name...." required  name="name">
+            <input type="email"  placeholder="email...." required  name="email">
+            <textarea  placeholder="message goes here ..."  name="message" required></textarea>
+
+              <?php
+                
+                 if(isset($_SESSION['message'])){
+
+                   echo "<h5>".$_SESSION['message'].'</h5>';
+                     
+                   unset($_SESSION['message']);
+
+                 }
+              
+              ?>
+            <input type="submit"  name="submit" value="send">
+
+
         </form>
     </section>
     <audio id="background-music" autoplay muted loop>
