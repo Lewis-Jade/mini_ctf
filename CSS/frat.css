@@ -97,7 +97,9 @@ section {
 }
 
 img {
-    height: 300px;
+    position: relative;
+    top: 100px;
+    height: 280px;
     width: 80%;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(9, 211, 9, 0.3);
@@ -114,9 +116,12 @@ img:hover {
     text-align: center;
     color: #92f092dc;
     border-radius: 8px;
+   position: relative;
+   margin-top: 150px;
     box-shadow: 0px 4px 6px rgba(9, 211, 9, 0.3);
     transition: transform 0.3s;
 }
+
 
 .info:hover {
     transform: scale(1.05);
@@ -140,5 +145,14 @@ img:hover {
         width: 90%;
         font-size: 14px;
         padding: 10px;
+    }
+    #circle{
+        position: relative;
+        top: 100px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 10px;
     }
 }
